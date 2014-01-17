@@ -3,7 +3,7 @@ var http = require('http');
 http.createServer(function (req, res) {
 	
 res.writeHead(200, {'Content-Type': 'text/plain'});
-res.end('Luke You Got This Mother Fucker to work ya biatch!!\n');
+res.end('Luke You updated This Biatch!!\n');
 
 }).listen(8124, "162.242.170.83");
 
